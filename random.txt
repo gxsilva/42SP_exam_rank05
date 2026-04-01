@@ -1,0 +1,8 @@
+Big Int
+- unsigned int no construtor que recebe um inteiro
+- fazer as operações left_shift e right_shift com unsigne int e com bigint também
+
+
+vect2
+- tem dois overloading para cada operação com * ou seja dois operator* e dois operator*=	
+- essa função pra um único caso especial na main vect2 operator*(int num, const vect2& obj);
