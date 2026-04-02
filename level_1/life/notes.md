@@ -1,0 +1,2 @@
+ - #include <unistd.h> para poder utilizar o STDIN_FILENO
+ - Fazer boundary check no momento da verificação de vizinhos
