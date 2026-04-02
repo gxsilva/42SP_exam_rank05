@@ -6,7 +6,7 @@
 /*   By: lsilva-x <lsilva-x@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/31 20:30:17 by lsilva-x          #+#    #+#             */
-/*   Updated: 2026/03/31 21:02:32 by lsilva-x         ###   ########.fr       */
+/*   Updated: 2026/04/02 01:07:48 by lsilva-x         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,11 @@ std::ostream &operator<<(std::ostream &os, const vect2 &obj)
 	return (os);
 }
 int &vect2::operator[](int idx)
+{
+	return idx ? _y : _x;
+}
+
+int vect2::operator[](int idx) const
 {
 	return idx ? _y : _x;
 }
